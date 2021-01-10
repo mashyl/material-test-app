@@ -1,0 +1,59 @@
+.AddPost {
+    position: fixed;
+    z-index: 100;
+    left: 75%;
+    margin-top: 1rem;
+}
+
+.Container {
+    padding: 2rem 0;
+}
+
+/* .InputContainer {
+    width: 50vw;
+}
+
+.Input {
+    width: 90%;
+} */
+
+.Alert {
+    position: fixed;
+    z-index: 100;
+    bottom: 5%;
+    right: 5%;
+    animation: alertAnimation 6s forwards ease-in-out;
+}
+
+@keyframes alertAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    2% {
+        opacity: 0.5;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .AddPost {
+        left: 70%;
+        margin-top: 1rem;
+    }
+
+    .Container{
+        padding: 4rem 0;
+    }
+}

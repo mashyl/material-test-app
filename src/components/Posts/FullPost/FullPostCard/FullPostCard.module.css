@@ -1,0 +1,65 @@
+.CardContainer {
+    max-width: 60%;
+    margin: 0 auto
+}
+
+.Buttons{
+    text-align: right;
+}
+
+.Button {
+    margin-left: 1.25rem;
+    align-self: flex-end;
+}
+
+/* .InputContainer {
+    width: 50vw;
+}
+
+.Input {
+    width: 90%;
+} */
+
+.Alert {
+    position: fixed;
+    z-index: 100;
+    bottom: 5%;
+    right: 5%;
+    animation: alertAnimation 6s forwards ease-in-out;
+}
+
+@keyframes alertAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    2% {
+        opacity: 0.5;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@media(min-width: 900px) {
+    .CardContainer {
+        max-width: 30%;
+    }
+
+    /* .InputContainer {
+        width: 30vw;
+    }
+
+    .Input {
+        width: 70%;
+    } */
+}

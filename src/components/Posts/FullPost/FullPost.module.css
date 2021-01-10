@@ -1,0 +1,21 @@
+.Container {
+    padding: 2rem 0;
+}
+
+.GoBack {
+    position: fixed;
+    z-index: 100;
+    right: 75%;
+    margin-top: 1rem;
+}
+
+@media (max-width: 700px) {
+    .GoBack {
+        right: 70%;
+        margin-top: 1rem;
+    }
+
+    .Container{
+        padding: 4rem 0;
+    }
+}

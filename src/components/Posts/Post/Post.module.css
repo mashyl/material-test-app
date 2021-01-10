@@ -1,0 +1,17 @@
+.CardContainer {
+    max-width: 60%;
+    margin: 2rem auto
+}
+
+.CardContainer:first-of-type {
+    margin-top: 0;
+}
+.CardContainer:last-of-type {
+    margin-bottom: 0;
+}
+
+@media(min-width: 900px) {
+    .CardContainer {
+        max-width: 40%;
+    }
+}

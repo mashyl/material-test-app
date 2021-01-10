@@ -1,0 +1,11 @@
+.SingleComment {
+    margin: 0.3rem auto;
+    padding: 1rem;
+    width: 80%;
+}
+
+@media(min-width: 900px) {
+    .SingleComment {
+        width: 40%;
+    }
+}
